@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <h1>Registro de Usuario</h1>
+
+    <form>
+        <!-- Formulario para enviar datos -->
+
+        <label>Nombre:</label>
+        <!-- Etiqueta descriptiva del input -->
+        <input type="text" placeholder="Escribe tu nombre" required>
+        <!-- Campo de texto -->
+        <!-- required = obligatorio -->
+
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" placeholder="correo@gmail.com">
+        <!-- Valida formato de email -->
+
+        <br><br>
+
+        <label>Contraseña:</label>
+        <input type="password">
+        <!-- Oculta lo que se escribe -->
+
+        <br><br>
+
+        <label>Edad:</label>
+        <input type="number" min="1" max="100">
+        <!-- Solo números con rango -->
+
+        <br><br>
+
+        <label>Género:</label>
+
+        <input type="radio" name="genero"> Masculino
+        <input type="radio" name="genero"> Femenino
+        <!-- Radio buttons (solo uno se puede seleccionar) -->
+
+        <br><br>
+
+        <label>Intereses:</label>
+
+        <input type="checkbox"> Programación
+        <input type="checkbox"> Trading
+        <!-- Checkboxes (puedes elegir varios) -->
+
+        <br><br>
+
+        <label>País:</label>
+
+        <select>
+            <!-- Lista desplegable -->
+            <option>República Dominicana</option>
+            <option>Estados Unidos</option>
+            <option>España</option>
+        </select>
+
+        <br><br>
+
+        <textarea placeholder="Escribe algo..."></textarea>
+        <!-- Área de texto -->
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+        <!-- Botón para enviar -->
+
+    </form>
+
+</body>
+
+</html>
