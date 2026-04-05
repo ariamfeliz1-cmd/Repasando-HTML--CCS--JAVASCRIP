@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Configuración básica -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="description" content="Página profesional de Jefferson desarrollador">
+    <meta name="keywords" content="HTML, programación, web">
+    <meta name="author" content="Jefferson">
+
+    <!-- Open Graph (para redes sociales) -->
+    <meta property="og:title" content="Mi sitio web">
+    <meta property="og:description" content="Aprendiendo HTML avanzado">
+
+    <title>Web Profesional</title>
+</head>
+
+<body>
+
+    <!-- Página accesible + SEO + estructura profesional -->
+
+    <!-- Accesibilidad: permite saltar navegación -->
+    <a href="#contenido">Saltar al contenido</a>
+
+    <header role="banner">
+        <!-- role ayuda a lectores de pantalla -->
+
+        <h1>Mi Sitio Web</h1>
+
+        <nav role="navigation" aria-label="Menú principal">
+            <!-- aria-label describe el propósito -->
+
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenido" role="main">
+        <!-- ID para accesibilidad -->
+
+        <section aria-labelledby="titulo-servicios">
+
+            <h2 id="titulo-servicios">Servicios</h2>
+
+            <article>
+                <h3>Desarrollo Web</h3>
+                <p>Creación de páginas modernas.</p>
+            </article>
+
+            <article>
+                <h3>Optimización SEO</h3>
+                <p>Mejor posicionamiento en buscadores.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2026 Ariam</p>
+    </footer>
+
+</body>
+
+</html>
