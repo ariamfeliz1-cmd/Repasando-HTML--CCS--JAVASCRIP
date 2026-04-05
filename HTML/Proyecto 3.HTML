@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario PRO</title>
+</head>
+
+<body>
+
+    <!-- Formulario PRO + APIs HTML + etiquetas poco usadas -->
+
+    <h1>Formulario Avanzado</h1>
+
+    <form>
+
+        <!-- Input con sugerencias -->
+        <label>Lenguaje favorito:</label>
+        <input list="lenguajes">
+
+        <datalist id="lenguajes">
+            <!-- Lista de sugerencias -->
+            <option value="HTML">
+            <option value="CSS">
+            <option value="JavaScript">
+        </datalist>
+
+        <br><br>
+
+        <!-- Selector de fecha -->
+        <label>Fecha:</label>
+        <input type="date">
+
+        <br><br>
+
+        <!-- Selector de color -->
+        <label>Color favorito:</label>
+        <input type="color">
+
+        <br><br>
+
+        <!-- Barra de progreso -->
+        <label>Progreso:</label>
+        <progress value="70" max="100"></progress>
+
+        <br><br>
+
+        <!-- Medidor -->
+        <label>Nivel:</label>
+        <meter value="0.6">60%</meter>
+
+        <br><br>
+
+        <!-- Resultado dinámico -->
+        <output>Resultado aquí</output>
+
+        <br><br>
+
+        <button>Enviar</button>
+
+    </form>
